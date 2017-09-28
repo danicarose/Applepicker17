@@ -306,6 +306,11 @@ Prefab:
       propertyPath: leftAndRightEdge
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 114083019233335234, guid: 57e28f0eb78584d2b920553ad2d5ab8c,
+        type: 2}
+      propertyPath: chanceToChangeDirections
+      value: 0.02
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114499602360842074, guid: 57e28f0eb78584d2b920553ad2d5ab8c, type: 2}
     - {fileID: 114817069385265466, guid: 57e28f0eb78584d2b920553ad2d5ab8c, type: 2}
