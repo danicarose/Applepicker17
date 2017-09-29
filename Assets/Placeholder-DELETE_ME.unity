@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 332439588}
   - component: {fileID: 332439587}
   - component: {fileID: 332439586}
+  - component: {fileID: 332439591}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -262,6 +263,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332439591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332439585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9409e288fcd47f48bfef278a286bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 1138570849369880, guid: f6973d994b3dc42c6b6faa5b91dd9a77,
+    type: 2}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1001 &1005730138
 Prefab:
   m_ObjectHideFlags: 0
@@ -311,6 +328,12 @@ Prefab:
       propertyPath: chanceToChangeDirections
       value: 0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 114083019233335234, guid: 57e28f0eb78584d2b920553ad2d5ab8c,
+        type: 2}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 1138214081744504, guid: 181d824a7f7c34d20bd726920bbecf7f,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 114499602360842074, guid: 57e28f0eb78584d2b920553ad2d5ab8c, type: 2}
     - {fileID: 114817069385265466, guid: 57e28f0eb78584d2b920553ad2d5ab8c, type: 2}
@@ -318,3 +341,23 @@ Prefab:
     - {fileID: 114086552569967862, guid: 57e28f0eb78584d2b920553ad2d5ab8c, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 57e28f0eb78584d2b920553ad2d5ab8c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1944362693 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1601463697656726, guid: 57e28f0eb78584d2b920553ad2d5ab8c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1005730138}
+--- !u!114 &1944362694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944362693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9409e288fcd47f48bfef278a286bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 0}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
